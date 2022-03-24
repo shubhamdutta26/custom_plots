@@ -16,7 +16,7 @@ df <- data.frame(experiment,condition,data)#,sd)
 
 # Plot bar graph
 ggplot(data = df, aes(x = condition, y=data))+
-  geom_bar(aes(color = experiment), stat="identity", fill="#36474f", width=0.5, position=position_dodge(width = 0.7))+
+  geom_bar(aes(color = experiment), stat="identity", fill="#062C30", width=0.5, position=position_dodge(width = 0.7))+
   # Error bars
   # geom_errorbar(aes(ymin=data-sd, ymax=data+sd), width=.2, position=position_dodge(.9))+
   # Modify y axis

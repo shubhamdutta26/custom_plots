@@ -17,7 +17,7 @@ df <- data.frame(experiment,condition,data)#,sd)
 # Plot line graph
 ggplot(data = df, aes(x = condition,y=data, group=experiment))+
   geom_line(aes(color=experiment))+
-  geom_point(aes(color=experiment), shape = 21, fill = "#36474f", size = 3)+
+  geom_point(aes(color=experiment), shape = 21, fill = "#062C30", size = 3)+
   # Error bars
   # geom_errorbar(aes(ymin=data-sd, ymax=data+sd), width=.2)+
   # Modify y axis

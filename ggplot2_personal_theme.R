@@ -5,16 +5,17 @@
 
 shubham_theme_dark <- function() {
     # Plot decoration
-    theme(plot.background = element_rect(fill = "#36474f"),# change background color
-          # panel.background = element_rect(colour="#ffffff",# change plot border color
-          #                                 fill = "#36474f"),# change plot background color
-          panel.background = element_blank(), # remove plot border
+    theme(plot.background = element_rect(fill = "#062C30"),# change background color
+          panel.background = element_rect(colour="#ffffff",# change plot border color
+                                          fill = "#062C30"),# change plot background color
+          # panel.background = element_blank(), # remove plot border
           panel.grid.major.x = element_blank(),# remove major grid lines
-          panel.grid.major.y = element_line(size = 0.1),# remove major grid lines
+          # panel.grid.major.y = element_line(size = 0.1),# major grid lines
+          panel.grid.major.y = element_blank(),# remove major grid lines
           panel.grid.minor = element_blank(),# remove minor grid lines
           # legend.position= "none",# remove legend legend.position= c(0.1, 0.75)
-          legend.background = element_rect(fill = "#36474f"),# change legend background
-          legend.key = element_rect(fill = "#36474f"),# change legend keys background
+          legend.background = element_rect(fill = "#062C30"),# change legend background
+          legend.key = element_rect(fill = "#062C30"),# change legend keys background
           legend.title = element_text(family = "SourceSansPro", size = 15, color = "#ffffff"),# change legend title color
           legend.text = element_text(family = "SourceSansPro", size = 12, color = "#ffffff"),# change legend text color
           plot.title    = element_text(family = "SourceSansPro", size = 20, color = "#ffffff"),
